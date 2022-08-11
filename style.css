@@ -1,0 +1,119 @@
+/* colors and fonts */
+
+body {
+	background-color: rgb(228, 220, 207);
+	color: rgb(87, 111, 114);
+	font-family: 'Martel', serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+	font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+	color: rgb(125, 157, 156);
+	font-weight: 500;
+	letter-spacing: 10px;
+	font-size: 32px;
+
+}
+
+h2 {
+	color: rgb(87, 111, 114);
+	font-size: 24px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Assistant', sans-serif;
+	color: rgb(125, 157, 156);
+	font-weight: bold;
+}
+a:hover {
+	color: rgb(87, 111, 114);
+}
+
+
+
+/* class custom designs */
+
+.container {
+	width: 800px;
+	margin: 10px auto;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+@media (max-width: 750px) {
+	.container {
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;
+	}
+}
+
+.card-beige {
+	background: rgb(240, 235, 227);
+	padding: 50px;
+	margin: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	text-align: center;
+}
+
+.img-circle {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.btn-darkblue {
+	background-color: rgb(125, 157, 156);
+	padding: 15px 30px;
+	border-radius: 6px;
+	color: rgb(240, 235, 227);
+}
+.btn-darkblue:hover {
+	background-color: rgb(87, 111, 114);
+	color: rgb(240, 235, 227);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 5px;
+}
+
+
+
+/* id custom designs */
+
+#bio {
+	margin-bottom: 50px;
+}
+
+#bio p {
+	margin-bottom: 30px;
+}
+
+#footer{
+	background: rgba(240, 235, 227,0.5);
+	padding: 10px;
+	margin: 30px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
